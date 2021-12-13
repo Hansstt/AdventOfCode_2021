@@ -1,8 +1,8 @@
 """solution for day two of advent of code 2021"""
 with open('day_2.txt', encoding='utf-8') as file_input:
     file_input = file_input.readlines()
+    data = [line.split() for line in file_input]
 
-data = [line.split() for line in file_input]
 for i in data:
     i[1] = int(i[1])
 

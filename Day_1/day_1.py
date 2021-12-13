@@ -1,9 +1,8 @@
 """solution for day one of advent of code 2021"""
 with open('day_1.txt', encoding='utf-8') as file_input:
     file_input = file_input.readlines()
-
-file_input = [line.strip() for line in file_input]
-file_input = [int(i) for i in file_input]
+    file_input = [line.strip() for line in file_input]
+    file_input = [int(i) for i in file_input]
 
 
 def puzzle_1(data):
